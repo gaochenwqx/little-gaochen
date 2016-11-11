@@ -8,6 +8,10 @@
 .war
 .ear
 
+.classpath
+.project
+.settings/
+
 # virtual machine crash logs, see httpwww.java.comendownloadhelperror_hotspot.xml
 hs_err_pid
 
