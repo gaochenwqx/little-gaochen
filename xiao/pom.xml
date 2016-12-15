@@ -26,5 +26,6 @@
   <modules>
     <module>wechat</module>
     <module>common</module>
+    <module>excelUtil</module>
   </modules>
 </project>
