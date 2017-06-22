@@ -41,7 +41,6 @@ public class ExcelTitleModel implements Comparable<ExcelTitleModel> {
 	 * @return
 	 * @see java.lang.Comparable#compareTo(java.lang.Object)
 	 */
-	@Override
 	public int compareTo(ExcelTitleModel o) {
 		return this.sort - o.sort;
 	}
