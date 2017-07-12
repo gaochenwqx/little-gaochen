@@ -3,6 +3,8 @@ package com.gc.common;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.gargoylesoftware.htmlunit.WebClient;
+
 /**
  * Hello world!
  *
@@ -27,6 +29,7 @@ public class App {
 		map.put(null, "a2");
 		System.out.println(map.get(null));
 		System.out.println(null == null);
+		WebClient webClient = new WebClient();
 	}
 
 }
